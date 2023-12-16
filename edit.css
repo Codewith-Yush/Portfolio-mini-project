@@ -1,0 +1,355 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;900&family=Ubuntu:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Poppins:wght@300;400;500;600;900&family=Ubuntu:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.headerr
+{
+    width: 100%;
+    background-color: #d6d3d3;
+    display: flex;
+    height: 70px;
+    box-sizing: border-box;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    justify-content: space-between;
+    padding: 0px 10%;
+
+}
+.logo
+{
+    width: 15%;
+    height: 70px;
+    /* background-color: yellow; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    
+}    
+.navigation
+{
+    width: 30%;
+    /* background-color: aqua; */
+    height: 70px;
+}
+.nav
+{
+    width: 100%;
+    height: 70px;
+    /* background-color:red; */
+    list-style-type: none; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+
+}
+
+
+/* banner css */
+
+.banner
+{
+    width: 100%;
+    height: 700px;
+    background-color:  #d6d3d3;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.details
+{
+    width: 60%;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 15px;
+    font-family: 'Oswald', sans-serif;
+    
+
+    
+}
+.t1
+{
+    font-family: 'Poppins', sans-serif;
+    font: size 60px;
+    
+}
+.t2
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    color: #5b5bb0;
+}
+.desc
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700; 
+}
+.btn{
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 6px;
+    font-size: 20px;
+    background: #7d2ae8;
+    transition: all0 o.2s ease;
+    margin-top: 35px;
+    
+
+}
+.btn:active{
+    transform: scale(0.96);
+}
+.ayush
+{
+    
+    background-color: #5b5bb0;
+    border-radius: 30px;
+    padding: 30px;
+    
+    
+}
+.person-img
+{
+    height: 400px;
+
+}
+.services 
+{
+    width: 100%;
+    padding: 30px 10%;
+    /* background-color: red; */
+}
+
+.section-title
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+
+.section-child 
+{
+    width: 100%;
+    padding: 30px 0px ;
+    /* background-color: white; */
+    margin-top: 30px;
+    display: flex;
+    column-gap: 4%;
+    
+}
+
+.service 
+{
+    width: 22%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    row-gap: 15px;
+    box-shadow: 0 0 2px gray;
+    border-radius: 10px;
+    
+}
+
+.icon 
+{
+    padding: 50px;
+    font-size: 70px;
+    align-self: center;
+    color: gray;
+}
+
+.service-text 
+{
+    font-size: 15px;
+    
+}
+
+.service-btn 
+{
+    padding: 12px 25px;
+    background-color: #5b5bb0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+}
+
+/* achievements */
+
+.achievements
+{
+    padding:30px 10%;
+    background-color: #ededed;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.achievement
+{
+    width: 18%;
+    padding: 50px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.achievements-child 
+{
+    column-gap: 2.5%;
+}
+
+.number
+{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.tag
+{
+    font-size: 18px;
+}
+
+
+/* quote css  */
+
+.quote 
+{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-image: url('https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.overlay 
+{
+    width: 100%;
+    height: 100%;
+    padding: 30px 10%;
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+    align-items: center;
+}
+
+.quote-area
+{
+    width: 100%;
+    padding: 30px 0px;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inp-email
+{
+    width: 70%;
+    height: 60px;
+    border: 2px solid white;
+    font-size: 18px;
+    text-indent: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    outline: none;
+}
+
+::placeholder
+{
+    color: white;
+}
+
+
+/* clients css  */
+
+.clients 
+{
+    width:100%;
+    padding: 30px 10%;
+    /* background-color: red; */
+}
+
+.client-section-child
+{
+    /* background-color: white; */
+    column-gap: 5%;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.client-img
+{
+    width: 8%;
+    filter: grayscale(100%);
+    transition: .3s;
+    cursor: pointer;
+    
+}
+
+.client-img:hover 
+{
+    filter: grayscale(0);
+    transform: scale(1.2);
+}
+
+/* footer css  */
+
+
+.footer  
+{
+    width: 100%;
+    padding: 30px 10%;
+   background-color: #4a4a4a;
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+}
+
+
+
+.footer-child
+{
+    width: 22%;
+    padding: 20px 50px;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.footer-list
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+
+.map 
+{
+    width: 46%;
+    padding: 0;
+}
+
